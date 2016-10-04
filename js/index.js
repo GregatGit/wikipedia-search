@@ -15,7 +15,7 @@ function startSearch() {
 
 function searchWiki(myItem) {
   // the url query is 4 lines for readability
-  var myUrl = 'http://en.wikipedia.org/w/api.php?format=json';
+  var myUrl = 'https://en.wikipedia.org/w/api.php?format=json';
   myUrl += '&action=query&generator=search&gsrnamespace=0&gsrlimit=10';
   myUrl += '&prop=pageimages|extracts&pilimit=max&exintro&explaintext';
   myUrl += '&exsentences=1&exlimit=max&gsrsearch=' + myItem + '&callback=?';
